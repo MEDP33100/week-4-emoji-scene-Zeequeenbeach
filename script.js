@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     for (let i = 0; i < 20; i++) {
         const fishElement = document.createElement('span');
-        fishElement.innerHTML = '🐟, 🐡, 🐠';
+        fishElement.innerHTML = '🐟 🐡 🐠';
         fishElement.classList.add('fish');
 
         const randYPosition = getRandomNumber(0, containerElement.offsetHeight) + 'px';
